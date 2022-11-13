@@ -40,10 +40,6 @@ export const Modal = (props: ModalProps) => {
     props.onCancelClick();
   };
 
-  const handleScheduleChange = (val: any) => {
-    console.log(val);
-  };
-
   return ReactDOM.createPortal(
     <div id="modal__container">
       <span style={{ marginLeft: "30px", lineHeight: "35px" }}>
