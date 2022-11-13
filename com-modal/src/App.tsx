@@ -24,7 +24,7 @@ function App() {
         Modal demo
       </h2>
       <h3>
-        <a href="">Link</a>
+        <a href="https://github.com/michalwilk123/modal-demo/tree/master/com-modal">Link</a>
       </h3>
       {modalOpen && (
         <Modal
